@@ -25,6 +25,7 @@ git add README
 ```
 git diff
 git diff --staged //查看已暂存的文件与最后一次提交的文件差异
+git diff --cached //查看已暂存的变化
 ```
 
 
