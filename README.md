@@ -32,6 +32,22 @@ git diff --cached //查看已暂存的变化
 ```
 git rm
 ```
+### mv
+文件改名
+```
+git mv file_from file_to
+```
+运行`git mv`相当于运行三条命令
+```
+mv README.md README
+git rm README.md
+git add README
+```
+
+### 查看提交记录
+```
+git log
+```
 
 ### 在服务器上搭建git
 https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%AD%E5%BB%BA-Git#_getting_git_on_a_server
