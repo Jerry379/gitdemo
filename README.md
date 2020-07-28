@@ -27,7 +27,11 @@ git diff
 git diff --staged //查看已暂存的文件与最后一次提交的文件差异
 git diff --cached //查看已暂存的变化
 ```
-
+### rm
+移除文件,先从已跟踪文件中移除，然后提交
+```
+git rm
+```
 
 ### 在服务器上搭建git
 https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%AD%E5%BB%BA-Git#_getting_git_on_a_server
