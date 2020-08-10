@@ -44,7 +44,7 @@ git rm README.md
 git add README
 ```
 
-### 查看提交记录
+### log
 ```
 git log
 git log -p //每次提交所引入的差异
@@ -112,7 +112,11 @@ git config --global alias.co checkout //设置git别名，设置后使用git che
 
 ### branch
 ```
+git branch //查看有哪些分支
+git branch -v //查看每一分支的最后一次提交
 git branch test //创建分支
+git branch --merged // 已经合并到当前分支的分支有哪些
+git branch --no-merged // 没有合并到当前分支的分支有哪些
 ```
 ### 在服务器上搭建git
 https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%AD%E5%BB%BA-Git#_getting_git_on_a_server
